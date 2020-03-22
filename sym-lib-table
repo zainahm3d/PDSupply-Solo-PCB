@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name STUSB4500QTR)(type Legacy)(uri ${KIPRJMOD}/Components/STUSB4500QTR/STUSB4500QTR.lib)(options "")(descr ""))
+  (lib (name USB4085-GF-A_REVA)(type Legacy)(uri ${KIPRJMOD}/Components/USB4085-GF-A_REVA/USB4085-GF-A_REVA.lib)(options "")(descr ""))
+  (lib (name STL6P3LLH6)(type Legacy)(uri ${KIPRJMOD}/Components/STL6P3LLH6/STL6P3LLH6.lib)(options "")(descr ""))
+  (lib (name IR38062MTRPBF)(type Legacy)(uri ${KIPRJMOD}/Components/IR38062MTRPBF/IR38062MTRPBF.lib)(options "")(descr ""))
+)
