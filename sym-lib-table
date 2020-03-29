@@ -4,4 +4,6 @@
   (lib (name STL6P3LLH6)(type Legacy)(uri ${KIPRJMOD}/Components/STL6P3LLH6/STL6P3LLH6.lib)(options "")(descr ""))
   (lib (name IR38062MTRPBF)(type Legacy)(uri ${KIPRJMOD}/Components/IR38062MTRPBF/IR38062MTRPBF.lib)(options "")(descr ""))
   (lib (name 2020-03-23_19-06-39)(type Legacy)(uri ${KIPRJMOD}/Components/ul_LTC3886EUKGPBF/KiCAD/2020-03-23_19-06-39/2020-03-23_19-06-39.lib)(options "")(descr ""))
+  (lib (name LTM8074IY_PBF)(type Legacy)(uri ${KIPRJMOD}/Components/LTM8074IY_PBF/LTM8074IY_PBF.lib)(options "")(descr ""))
+  (lib (name LTC2972_SCH)(type Legacy)(uri ${KIPRJMOD}/Components/LTC2972_SCH.lib)(options "")(descr ""))
 )
