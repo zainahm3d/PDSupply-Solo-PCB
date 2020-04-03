@@ -6,4 +6,5 @@
   (lib (name 2020-03-23_19-06-39)(type Legacy)(uri ${KIPRJMOD}/Components/ul_LTC3886EUKGPBF/KiCAD/2020-03-23_19-06-39/2020-03-23_19-06-39.lib)(options "")(descr ""))
   (lib (name LTM8074IY_PBF)(type Legacy)(uri ${KIPRJMOD}/Components/LTM8074IY_PBF/LTM8074IY_PBF.lib)(options "")(descr ""))
   (lib (name LTC2972_SCH)(type Legacy)(uri ${KIPRJMOD}/Components/LTC2972_SCH.lib)(options "")(descr ""))
+  (lib (name FTSH-105-01-L-DV-K)(type Legacy)(uri ${KIPRJMOD}/Components/FTSH-105-01-L-DV-K/FTSH-105-01-L-DV-K.lib)(options "")(descr ""))
 )

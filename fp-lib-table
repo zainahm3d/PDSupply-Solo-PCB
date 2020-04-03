@@ -6,4 +6,5 @@
   (lib (name ul_LTC3886EUKGPBF)(type KiCad)(uri ${KIPRJMOD}/Components/ul_LTC3886EUKGPBF/KiCAD/2020-03-23_19-06-39)(options "")(descr ""))
   (lib (name LTM8074IY_PBF)(type KiCad)(uri ${KIPRJMOD}/Components/LTM8074IY_PBF)(options "")(descr ""))
   (lib (name LTC2972)(type KiCad)(uri ${KIPRJMOD}/Components/LTC2972)(options "")(descr Zain))
+  (lib (name FTSH-105-01-L-DV-K)(type KiCad)(uri ${KIPRJMOD}/Components/FTSH-105-01-L-DV-K)(options "")(descr ""))
 )
