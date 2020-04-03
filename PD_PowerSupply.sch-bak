@@ -672,14 +672,14 @@ $EndComp
 Wire Wire Line
 	16500 4650 16500 4800
 Wire Wire Line
-	15600 4350 16500 4350
+	15600 4350 16050 4350
 Wire Wire Line
 	16500 4550 16500 4350
 Wire Wire Line
 	16500 4800 16500 4850
 Connection ~ 16500 4800
 Wire Wire Line
-	15600 4800 16500 4800
+	15600 4800 16050 4800
 $Comp
 L power:GND #PWR034
 U 1 1 5E8B79F9
@@ -805,7 +805,7 @@ Wire Wire Line
 	12950 4800 12950 4850
 Connection ~ 12950 4800
 Wire Wire Line
-	13850 4800 12950 4800
+	13850 4800 13400 4800
 $Comp
 L power:GND #PWR028
 U 1 1 5E99409E
@@ -2366,7 +2366,7 @@ $EndComp
 Wire Wire Line
 	2000 11900 2000 12000
 Wire Wire Line
-	13850 4350 12950 4350
+	13850 4350 13400 4350
 $Comp
 L Connector:Conn_01x02_Male J1
 U 1 1 5E9940A4
@@ -2398,4 +2398,54 @@ Wire Wire Line
 	13150 1150 13650 1150
 Connection ~ 13150 1150
 Connection ~ 12850 1150
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5F89B1B2
+P 13100 4650
+F 0 "J3" H 13100 4750 50  0000 C CNN
+F 1 "Connector" H 13208 4740 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 13100 4650 50  0001 C CNN
+F 3 "~" H 13100 4650 50  0001 C CNN
+	1    13100 4650
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5F89B6FE
+P 16350 4650
+F 0 "J4" H 16350 4750 50  0000 C CNN
+F 1 "Connector" H 16458 4740 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 16350 4650 50  0001 C CNN
+F 3 "~" H 16350 4650 50  0001 C CNN
+	1    16350 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	16150 4650 16050 4650
+Wire Wire Line
+	16050 4650 16050 4800
+Connection ~ 16050 4800
+Wire Wire Line
+	16050 4800 16500 4800
+Wire Wire Line
+	16150 4550 16050 4550
+Wire Wire Line
+	16050 4550 16050 4350
+Connection ~ 16050 4350
+Wire Wire Line
+	16050 4350 16500 4350
+Wire Wire Line
+	13300 4550 13400 4550
+Wire Wire Line
+	13400 4550 13400 4350
+Connection ~ 13400 4350
+Wire Wire Line
+	13400 4350 12950 4350
+Wire Wire Line
+	13300 4650 13400 4650
+Wire Wire Line
+	13400 4650 13400 4800
+Connection ~ 13400 4800
+Wire Wire Line
+	13400 4800 12950 4800
 $EndSCHEMATC
