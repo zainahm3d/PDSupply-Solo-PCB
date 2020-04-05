@@ -2772,6 +2772,6 @@ Wire Wire Line
 	12500 4800 12500 4750
 Text Notes 12500 4550 0    50   ~ 0
 0805\n
-Text Notes 16750 4500 0    50   ~ 0
+Text Notes 16750 4550 0    50   ~ 0
 0805\n
 $EndSCHEMATC
