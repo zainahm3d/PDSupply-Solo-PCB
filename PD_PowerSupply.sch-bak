@@ -1477,26 +1477,12 @@ F 3 "~" H 9800 11250 50  0001 C CNN
 	1    9800 11250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C5
-U 1 1 5F242A3D
-P 10100 11250
-F 0 "C5" H 10150 11350 50  0000 L CNN
-F 1 ".1uF" H 10150 11150 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10138 11100 50  0001 C CNN
-F 3 "~" H 10100 11250 50  0001 C CNN
-	1    10100 11250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8850 11100 9500 11100
 Connection ~ 8850 11100
 Connection ~ 9500 11100
 Wire Wire Line
 	9500 11100 9800 11100
-Connection ~ 9800 11100
-Wire Wire Line
-	9800 11100 10100 11100
 Wire Wire Line
 	10100 11400 10100 11450
 $Comp
@@ -1883,7 +1869,6 @@ Wire Wire Line
 Connection ~ 9800 11400
 Wire Wire Line
 	9800 11400 10100 11400
-Connection ~ 10100 11400
 Wire Wire Line
 	8650 11100 8650 11550
 Wire Wire Line
