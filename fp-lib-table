@@ -7,4 +7,7 @@
   (lib (name LTM8074IY_PBF)(type KiCad)(uri ${KIPRJMOD}/Components/LTM8074IY_PBF)(options "")(descr ""))
   (lib (name LTC2972)(type KiCad)(uri ${KIPRJMOD}/Components/LTC2972)(options "")(descr Zain))
   (lib (name FTSH-105-01-L-DV-K)(type KiCad)(uri ${KIPRJMOD}/Components/FTSH-105-01-L-DV-K)(options "")(descr ""))
+  (lib (name ABM3-32)(type KiCad)(uri ${KIPRJMOD}/Components/ABM3-32)(options "")(descr ""))
+  (lib (name ul_LTC7106EDDB)(type KiCad)(uri /Users/zain/Documents/KiCad/PD_PowerSupply_1CH/Components/ul_LTC7106EDDB/KiCAD/2020-04-18_18-56-16/footprints.pretty)(options "")(descr ""))
+  (lib (name 2450AT18B100E)(type KiCad)(uri ${KIPRJMOD}/Components/2450AT18B100E)(options "")(descr ""))
 )
