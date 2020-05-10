@@ -12,4 +12,5 @@
   (lib (name 2450AT18B100E)(type KiCad)(uri ${KIPRJMOD}/Components/2450AT18B100E)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/Components/2020-05-08_21-34-57/footprints.pretty)(options "")(descr ""))
   (lib (name BMD-340-A-R)(type KiCad)(uri ${KIPRJMOD}/Components/BMD-340-A-R)(options "")(descr ""))
+  (lib (name LQH66SN220M03L)(type KiCad)(uri ${KIPRJMOD}/Components/LQH66SN220M03L)(options "")(descr ""))
 )
