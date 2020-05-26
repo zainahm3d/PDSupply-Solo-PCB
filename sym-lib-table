@@ -14,4 +14,5 @@
   (lib (name BMD-340-A-R)(type Legacy)(uri ${KIPRJMOD}/Components/BMD-340-A-R/BMD-340-A-R.lib)(options "")(descr ""))
   (lib (name LQH66SN220M03L)(type Legacy)(uri ${KIPRJMOD}/Components/LQH66SN220M03L/LQH66SN220M03L.lib)(options "")(descr ""))
   (lib (name PD_PowerSupply-rescue)(type Legacy)(uri ${KIPRJMOD}/PD_PowerSupply-rescue.lib)(options "")(descr ""))
+  (lib (name AQV252GAX)(type Legacy)(uri ${KIPRJMOD}/Components/AQV252GAX/AQV252GAX.lib)(options "")(descr ""))
 )

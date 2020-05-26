@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# AQV252GAX
+#
+DEF AQV252GAX U 0 40 Y Y 1 L N
+F0 "U" -150 250 50 H V L BNN
+F1 "AQV252GAX" -200 -300 50 H V L BNN
+F2 "SOP6" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 300 200 300 -200 N
+P 2 0 0 10 300 -200 -400 -200 N
+P 2 0 0 10 -400 -200 -400 200 N
+P 2 0 0 10 -400 200 300 200 N
+X LED+ 1 -500 100 100 R 40 40 0 0 B 
+X LED- 2 -500 0 100 R 40 40 0 0 B 
+X N/C 3 -500 -100 100 R 40 40 0 0 N 
+X SW+2 4 400 -100 100 L 40 40 0 0 B 
+X SW- 5 400 0 100 L 40 40 0 0 B 
+X SW+1 6 400 100 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
