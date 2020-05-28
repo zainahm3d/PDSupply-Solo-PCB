@@ -2310,10 +2310,10 @@ Wire Wire Line
 	4150 3300 4900 3300
 NoConn ~ 17100 1550
 $Comp
-L Connector:TestPoint LTC_EN
+L Connector:TestPoint LTC_EN1
 U 1 1 5EFBA31D
 P 6150 6650
-F 0 "LTC_EN" V 6150 6850 50  0000 L CNN
+F 0 "LTC_EN1" V 6150 6850 50  0000 L CNN
 F 1 "TestPoint" H 6208 6677 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6350 6650 50  0001 C CNN
 F 3 "~" H 6350 6650 50  0001 C CNN
@@ -2321,10 +2321,10 @@ F 3 "~" H 6350 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint LTC_CSB
+L Connector:TestPoint LTC_CSB1
 U 1 1 5EFDD5EF
 P 6250 6650
-F 0 "LTC_CSB" V 6250 6850 50  0000 L CNN
+F 0 "LTC_CSB1" V 6250 6850 50  0000 L CNN
 F 1 "TestPoint" H 6308 6677 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6450 6650 50  0001 C CNN
 F 3 "~" H 6450 6650 50  0001 C CNN
@@ -2332,10 +2332,10 @@ F 3 "~" H 6450 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint MISO
+L Connector:TestPoint MISO1
 U 1 1 5EFDD95F
 P 6350 6650
-F 0 "MISO" V 6350 6850 50  0000 L CNN
+F 0 "MISO1" V 6350 6850 50  0000 L CNN
 F 1 "TestPoint" H 6408 6677 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6550 6650 50  0001 C CNN
 F 3 "~" H 6550 6650 50  0001 C CNN
@@ -2343,10 +2343,10 @@ F 3 "~" H 6550 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint SCLK
+L Connector:TestPoint SCLK1
 U 1 1 5EFDDC4A
 P 6450 6650
-F 0 "SCLK" V 6450 6850 50  0000 L CNN
+F 0 "SCLK1" V 6450 6850 50  0000 L CNN
 F 1 "TestPoint" H 6508 6677 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6650 6650 50  0001 C CNN
 F 3 "~" H 6650 6650 50  0001 C CNN
@@ -2354,10 +2354,10 @@ F 3 "~" H 6650 6650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint MOSI
+L Connector:TestPoint MOSI1
 U 1 1 5EFDDE9D
 P 6550 6650
-F 0 "MOSI" V 6550 6850 50  0000 L CNN
+F 0 "MOSI1" V 6550 6850 50  0000 L CNN
 F 1 "TestPoint" H 6608 6677 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6750 6650 50  0001 C CNN
 F 3 "~" H 6750 6650 50  0001 C CNN
@@ -2389,20 +2389,20 @@ Wire Wire Line
 Connection ~ 6550 7150
 Wire Wire Line
 	6550 7150 10200 7150
+Wire Wire Line
+	6650 6650 6650 7250
+Connection ~ 6650 7250
+Wire Wire Line
+	6650 7250 4850 7250
 $Comp
-L Connector:TestPoint LMP_CSB
+L Connector:TestPoint LMP_CSB1
 U 1 1 5F08F5FB
 P 6650 6650
-F 0 "LMP_CSB" V 6650 6850 50  0000 L CNN
+F 0 "LMP_CSB1" V 6650 6850 50  0000 L CNN
 F 1 "TestPoint" H 6708 6677 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 6850 6650 50  0001 C CNN
 F 3 "~" H 6850 6650 50  0001 C CNN
 	1    6650 6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 6650 6650 7250
-Connection ~ 6650 7250
-Wire Wire Line
-	6650 7250 4850 7250
 $EndSCHEMATC
