@@ -18,7 +18,7 @@ Id,Designator,Package,Quantity,Description/Value,Part Number,Manufacturer,Type
 17,D3,D_1206_3216Metric_Castellated,1,Diode Schottkey,SD1206T040S2R0,AVX,SMD
 18,C16,C_1206_3216Metric,1,.1uF 50V ceramic cap,C1206C104M5RACTU,Kemet,SMD
 19,U6,LMP92064SDE&slash_NOPB,1,LMP92064SDE,LMP92064SDE_NOPB,TI,SMD
-20,U5,LTC7106EDDB,1,SPI DAC,LTC7106EDDB-1,Linear technology,SMD
+20,U5,LTC7106EDDB-1,1,SPI DAC,LTC7106EDDB-1,Linear technology,SMD
 21,U4,BGA25C65P5X5_400X400X198N,1,Switching power supply,LTM8074IY,Linear technology,SMD
 22,U3,SOT-23-6,1,Switching power supply,LMR16006YQ5,TI,SMD
 23,R19,R_0603_1608Metric,1,2.2K 1/16W resistor,ERJ-3GEYJ222V,Panasonic,SMD
