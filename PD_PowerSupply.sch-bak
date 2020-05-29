@@ -2405,4 +2405,6 @@ F 3 "~" H 6850 6650 50  0001 C CNN
 	1    6650 6650
 	1    0    0    -1  
 $EndComp
+Text Notes 4800 11550 0    50   ~ 0
+FIX INDUCTOR
 $EndSCHEMATC
