@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MAX17501AATB+
+#
+DEF MAX17501AATB+ U 0 40 Y Y 1 L N
+F0 "U" -500 639 50 H V L BNN
+F1 "MAX17501AATB+" -500 -757 50 H V L BNN
+F2 "SON50P300X200X80-11N" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Maxim Integrated" 0 0 50 H I L BNN
+F5 "Unavailable" 0 0 50 H I L BNN
+F6 "MAX17501AATB+" 0 0 50 H I L BNN
+F7 "Conv DC-DC Single-OUT Step Down 4.5V to 60V 10-Pin TDFN Cut Tape" 0 0 50 H I L BNN
+F8 "TDFN-10 Maxim" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 16 -500 600 500 600 N
+P 2 0 0 16 500 600 500 -600 N
+P 2 0 0 16 500 -600 -500 -600 N
+P 2 0 0 16 -500 -600 -500 600 N
+X EN/UVLO 3 -700 200 200 R 40 40 0 0 I 
+X FB/VO 5 -700 100 200 R 40 40 0 0 I 
+X SS 6 -700 0 200 R 40 40 0 0 I 
+X VIN 2 -700 300 200 R 40 40 0 0 I 
+X LX 10 -700 -200 200 R 40 40 0 0 P 
+X ~RESET~ 8 700 300 200 L 40 40 0 0 O 
+X VCC 4 700 500 200 L 40 40 0 0 W 
+X PGND 1 700 -300 200 L 40 40 0 0 W 
+X EP 11 700 -500 200 L 40 40 0 0 W 
+X GND 9 700 -400 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library
