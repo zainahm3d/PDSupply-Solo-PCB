@@ -6,8 +6,8 @@ encoding utf-8
 Sheet 1 1
 Title "USB PD Power Supply"
 Date "2020-03-22"
-Rev "1"
-Comp ""
+Rev "2"
+Comp "Captio Labs"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1358,45 +1358,8 @@ Wire Wire Line
 	4250 12050 4250 12150
 Wire Wire Line
 	3600 12700 3600 12650
-$Comp
-L Device:R_US R21
-U 1 1 5F469F42
-P 5700 12250
-F 0 "R21" H 5768 12296 50  0000 L CNN
-F 1 "54.9K" H 5768 12205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5740 12240 50  0001 C CNN
-F 3 "~" H 5700 12250 50  0001 C CNN
-	1    5700 12250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5550 11650 5700 11650
-$Comp
-L Device:R_US R22
-U 1 1 5F46B0E3
-P 5700 12650
-F 0 "R22" H 5768 12696 50  0000 L CNN
-F 1 "10K" H 5768 12605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5740 12640 50  0001 C CNN
-F 3 "~" H 5700 12650 50  0001 C CNN
-	1    5700 12650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 12500 5700 12450
-$Comp
-L power:GND #PWR016
-U 1 1 5F4C1D2E
-P 5700 12850
-F 0 "#PWR016" H 5700 12600 50  0001 C CNN
-F 1 "GND" H 5700 12700 50  0001 C CNN
-F 2 "" H 5700 12850 50  0001 C CNN
-F 3 "" H 5700 12850 50  0001 C CNN
-	1    5700 12850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5700 12850 5700 12800
 $Comp
 L Device:C C17
 U 1 1 5F4EF22F
@@ -1807,11 +1770,6 @@ Wire Wire Line
 	10300 7250 6650 7250
 Wire Wire Line
 	10300 5450 10300 7250
-Wire Wire Line
-	5700 12450 5700 12400
-Connection ~ 5700 12450
-Wire Wire Line
-	5700 11650 5700 12100
 Text Notes 15400 2000 0    50   ~ 0
 249K internal divider
 Text Notes 15400 2150 0    50   ~ 0
@@ -2519,13 +2477,7 @@ Connection ~ 14850 5550
 Wire Wire Line
 	14850 5550 10400 5550
 Wire Wire Line
-	14850 5550 15150 5550
-Wire Wire Line
-	15150 5550 15150 2550
-Wire Wire Line
-	15150 2550 15500 2550
-Wire Wire Line
-	15500 2550 15500 2300
+	14850 5550 15500 5550
 Wire Wire Line
 	15500 2300 15400 2300
 Wire Wire Line
@@ -2574,4 +2526,12 @@ F 3 "http://www.ti.com/lit/ds/symlink/txb0104.pdf" H 16460 5545 50  0001 C CNN
 	1    16350 5450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	15500 2300 15500 5550
+Wire Wire Line
+	5700 11650 5700 12450
+Text Notes 4200 12650 0    50   ~ 0
+Internal feedback divider for 5V
+Text Notes 1600 4600 0    50   ~ 0
+USB-C
 $EndSCHEMATC
