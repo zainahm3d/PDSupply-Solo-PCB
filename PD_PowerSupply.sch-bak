@@ -964,17 +964,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 6750 6150 6750
 $Comp
-L Device:R_US R15
-U 1 1 5EAE45A7
-P 16150 3050
-F 0 "R15" H 16218 3096 50  0000 L CNN
-F 1 "DNP" H 16218 3005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 16190 3040 50  0001 C CNN
-F 3 "~" H 16150 3050 50  0001 C CNN
-	1    16150 3050
-	-1   0    0    1   
-$EndComp
-$Comp
 L 2020-05-08_21-34-57:LMP92064SDE_NOPB U6
 U 1 1 5EB752DE
 P 17550 3600
@@ -2212,17 +2201,6 @@ F 6 "Manufacturer Recommendations" H 7150 1600 50  0001 L BNN "Field6"
 $EndComp
 Text Notes 7150 1150 0    50   ~ 0
 Temporarily using STL8P4LLF6\nOriginal PN out of stock
-Wire Wire Line
-	16350 2000 16350 2150
-Wire Wire Line
-	16150 2900 16150 2150
-Wire Wire Line
-	16150 2150 16350 2150
-Connection ~ 16350 2150
-Wire Wire Line
-	16350 2150 16350 2350
-Wire Wire Line
-	16150 3500 16150 3200
 $Comp
 L LTC2644CMS-L10_PBF:LTC2644CMS-L10#PBF U5
 U 1 1 5EE7CB1B
@@ -2313,8 +2291,6 @@ Wire Wire Line
 Wire Wire Line
 	9900 5050 11950 5050
 Wire Wire Line
-	13300 3500 13450 3500
-Wire Wire Line
 	13300 3400 13350 3400
 Text Label 5000 7350 0    50   ~ 0
 BUCK_ENABLE
@@ -2329,24 +2305,8 @@ F 3 "~" H 13550 3300 50  0001 C CNN
 	1    13350 3300
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:TestPoint DACOUTB1
-U 1 1 5F3B380F
-P 13450 3300
-F 0 "DACOUTB1" V 13450 3500 50  0000 L CNN
-F 1 "TestPoint" H 13508 3327 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 13650 3300 50  0001 C CNN
-F 3 "~" H 13650 3300 50  0001 C CNN
-	1    13450 3300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13350 3300 13350 3400
-Wire Wire Line
-	13450 3300 13450 3500
-Connection ~ 13450 3500
-Wire Wire Line
-	13450 3500 16150 3500
 Wire Wire Line
 	9800 4950 11850 4950
 Wire Wire Line
@@ -2534,4 +2494,6 @@ Text Notes 4200 12650 0    50   ~ 0
 Internal feedback divider for 5V
 Text Notes 1600 4600 0    50   ~ 0
 USB-C
+Wire Wire Line
+	16350 2000 16350 2350
 $EndSCHEMATC

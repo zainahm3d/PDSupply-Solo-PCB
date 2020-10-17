@@ -3847,7 +3847,7 @@
   (gr_text @CaptioLabs (at 159.5888 81.9344 90) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3) italic) (justify mirror))
   )
-  (gr_text "Proto 1" (at 143.1888 109.4344) (layer F.Cu) (tstamp 5ECF7209)
+  (gr_text "Proto 2" (at 143.1888 109.4344) (layer F.Cu) (tstamp 5ECF7209)
     (effects (font (size 1.5 1.5) (thickness 0.25) italic))
   )
   (gr_text + (at 167.4888 106.1344) (layer F.SilkS) (tstamp 5ECF5A1F)

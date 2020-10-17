@@ -930,7 +930,7 @@ Connection ~ 20150 1500
 Wire Wire Line
 	20150 1500 20350 1500
 $Comp
-L Regulator_Switching:LMR16006YQ5 U3
+L PD_PowerSupply-rescue:LMR16006YQ5-Regulator_Switching U3
 U 1 1 5EA28B43
 P 3600 11700
 F 0 "U3" H 3950 12300 50  0000 C CNN
@@ -1786,7 +1786,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 3550 2100 3600
 $Comp
-L Power_Protection:USB6B1 U9
+L PD_PowerSupply-rescue:USB6B1-Power_Protection U9
 U 1 1 5EC72E1B
 P 2650 5250
 F 0 "U9" V 2850 4700 50  0000 L CNN
